@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Otávio Esportes - Loja de Artigos Esportivos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .destaques {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .destaques a {
+      text-align: center;
+      color: #005f73;
+      text-decoration: none;
+    }
+    .destaques img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    section img {
+      margin: 10px 10px 10px 0;
+      border-radius: 8px;
+      max-width: 45%;
+      height: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #005f73;
+      color: white;
+      margin-top: 20px;
+    }
+    ul {
+      list-style: disc inside;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="imgs/logo.png" alt="Logo Otávio Esportes" width="150" />
+    <h1>Otávio Esportes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="futebol/index.html">Futebol</a></li>
+        <li><a href="basquete/index.html">Basquete</a></li>
+        <li><a href="golf/index.html">Golf</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Produtos em destaque -->
+    <section>
+      <h2>Produtos em Destaque</h2>
+      <div class="destaques">
+        <a href="futebol/index.html">
+          <img src="imgs/futebol1.jpg" alt="Produto Futebol" />
+          <p>Futebol</p>
+        </a>
+        <a href="basquete/index.html">
+          <img src="imgs/basquete1.jpg" alt="Produto Basquete" />
+          <p>Basquete</p>
+        </a>
+        <a href="golf/index.html">
+          <img src="imgs/golf1.jpg" alt="Produto Golf" />
+          <p>Golf</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Imagens ilustrativas da loja -->
+    <section>
+      <h2>Conheça Nossa Loja</h2>
+      <p>Otávio Esportes oferece os melhores artigos esportivos para futebol, basquete e golf. Qualidade e preço justo são nosso compromisso.</p>
+      <img src="imgs/loja1.jpg" alt="Foto da Loja" />
+      <img src="imgs/loja2.jpg" alt="Interior da Loja" />
+    </section>
+
+    <!-- Mapa do endereço da loja -->
+    <section>
+      <h2>Localização</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.999088850564!2d-46.65638348442242!3d-23.564329084686157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b70e8d9d3d%3A0x68e6f446f9c4de16!2sAv.%20Paulista%2C%201111%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-923!5e0!3m2!1spt-BR!2sbr!4v1685956001234!5m2!1spt-BR!2sbr" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Formas de pagamento -->
+    <section>
+      <h2>Formas de Pagamento</h2>
+      <ul>
+        <li>Cartão de Crédito</li>
+        <li>Pix</li>
+        <li>Boleto Bancário</li>
+        <li>Dinheiro</li>
+      </ul>
+    </section>
+
+    <!-- Proprietários -->
+    <section>
+      <h2>Proprietário</h2>
+      <p>Otávio Silva (Fundador)</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Otávio Esportes. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
