@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basquete</title>
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #000000; /* Fundo preto */
+        color: #f4f4f4;
+    }
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column; /* Coluna para os itens do menu */
+        align-items: center; /* Centraliza os itens */
+        margin-bottom: 20px;
+    }
+    ul {
+        list-style: none; /* Remove os marcadores da lista */
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        margin: 10px 0; /* Espaçamento entre os itens */
+    }
+    a {
+        display: inline-block; /* Permite definir largura e altura */
+        width: 200px; /* Largura fixa para os botões */
+        text-align: center; /* Centraliza o texto */
+        text-decoration: none; /* Remove o sublinhado do link */
+        padding: 10px; /* Espaçamento interno do botão */
+        background-color: #555; /* Cor de fundo do botão */
+        color: #fff; /* Cor do texto */
+        border-radius: 5px; /* Bordas arredondadas */
+        transition: background-color 0.3s; /* Transição suave de cor */
+        font-weight: bold; /* Texto em negrito */
+    }
+    a:hover {
+        background-color: #777; /* Cor mais clara ao passar o mouse */
+    }
+    .produtos {
+        display: flex;
+        justify-content: space-around; /* Espaçamento entre os produtos */
+        flex-wrap: wrap; /* Permite que os produtos se movam para a próxima linha se necessário */
+        margin-bottom: 20px;
+    }
+    .produto {
+        text-align: center; /* Centraliza o texto dos produtos */
+        margin: 10px; /* Espaçamento entre os produtos */
+        border: 2px solid white; /* Borda branca */
+        border-radius: 10px; /* Bordas arredondadas */
+        padding: 10px; /* Espaçamento interno */
+        background-color: rgba(255, 255, 255, 0.1); /* Fundo sutil para destacar */
+        width: 200px; /* Largura fixa para as divs dos produtos */
+    }
+    .produtos img {
+        width: 100%; /* Largura fixa para as imagens dos produtos */
+        border-radius: 5px; /* Bordas arredondadas nas imagens */
+    }
+    footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+  <img src="../../imgs/image.png" alt="Logo" width="100">
+  <h1>Loja Esportiva Campeã</h1>
+
+  <ul>
+    <li><a href="../../index.html">Início</a></li>
+    <li><a href="../basquete/index.html">Basquete</a></li>
+    <li><a href="../Futebol/index.html">Futebol</a></li>
+    <li><a href="../Golfe/index.html">Golfe</a></li>
+  </ul>
+
+  <h2>Sobre o Basquete</h2>
+  <p>O basquete foi criado em 1891. Grandes jogadores como Michael Jordan fizeram história.</p>
+  <a href="https://pt.wikipedia.org/wiki/Basquetebol" target="_blank">Saiba mais</a>
+
+  <h3>Produtos</h3>
+  <ul>
+    <li>Bola de basquete - R$ 99 - Tamanho: M</li>
+    <li>Tênis de basquete - R$ 199 - Tamanhos: 38 ao 44</li>
+    <li>Camiseta - R$ 59 - Tamanhos: P, M, G</li>
+  </ul>
+</body>
+</html>
